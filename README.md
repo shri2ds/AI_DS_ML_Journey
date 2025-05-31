@@ -24,10 +24,12 @@ Welcome to my personal journey transitioning from a **Software Engineer** to an 
 ---
 
 ## ✅ Completed LeetCode Problems
-Problem      
---------------
-2Sum         
-Palindrome   
+
+| Problem      | Language |
+|--------------|----------|
+| 2Sum         | Python   |
+| Palindrome   | Python   | 
+
 
 ---
 
