@@ -29,6 +29,7 @@ Welcome to my personal journey transitioning from a **Software Engineer** to an 
 |--------------|----------|
 | 2Sum         | Python   |
 | Palindrome   | Python   | 
+| Intersection   | Python   | 
 
 
 ---
