@@ -23,6 +23,13 @@ Welcome to my personal journey transitioning from a **Software Engineer** to an 
 
 ---
 
+## Types of Machine Learning
+- Supervised Learning → Labeled data (e.g., regression, classification)
+- Unsupervised Learning → No labels (e.g., clustering, PCA)
+
+
+---
+
 ## ✅ Completed LeetCode Problems
 
 | Problem      | Language |
