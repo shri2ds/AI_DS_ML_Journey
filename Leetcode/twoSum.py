@@ -1,4 +1,4 @@
-def twoSum(self, nums, target):
+def twoSum(nums, target):
     num_to_index = {}
     for i, num in enumerate(nums):
         complement = target - num
