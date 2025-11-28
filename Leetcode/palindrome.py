@@ -1,4 +1,4 @@
-def isPalindrome(self, x):
+def isPalindrome(x):
     """
     :type x: int
     :rtype: bool
