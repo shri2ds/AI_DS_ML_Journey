@@ -15,7 +15,8 @@ def product_array_except_self(nums):
         suffix *= nums[i]
     return output
 
-if __name__ == "main":
+if __name__ == "__main__":
     #Example usage
     nums = [-2, -1, 0, 1, 2]
-    product_array_except_self(nums)
+    result = product_array_except_self(nums)
+    print(result)
