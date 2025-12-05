@@ -115,5 +115,29 @@ def backward_prop(Z1, A1, Z2, A2, W1, W2, X, Y):
 ```
 
 ---
+# PyTorch Implementation (AutoGrad) 🔥
+
+> **Project Goal:** Re-implement the MNIST classifier using **PyTorch** to leverage Automatic Differentiation (AutoGrad) and GPU acceleration.
+
+## 🚀 Key Differences from "From Scratch"
+This implementation reduces the code complexity by 90% by abstracting the backward pass.
+
+| Feature | NumPy Implementation | PyTorch Implementation |
+| :--- | :--- | :--- |
+| **Gradients** | Manually derived (Calculus) | `loss.backward()` (AutoGrad) |
+| **Weights** | Dictionary of Arrays | `nn.Linear` Layers |
+| **Device** | CPU Only | CPU / GPU / MPS |
+| **Optimization** | Manual Update Rule | `optim.SGD` / `optim.Adam` |
+
+## 💻 Code Snippet
+The entire training loop is simplified to:
+
+```python
+# The "Magic" Step
+optimizer.zero_grad()   # Clear previous gradients
+loss.backward()         # Calculate gradients automatically
+optimizer.step()        # Update weights
+```
+---
 ## 🧵 Contact
 For discussions, improvements or collaborations, reach me via [LinkedIn](https://www.linkedin.com/in/shridhar-bhandar/).
