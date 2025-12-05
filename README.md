@@ -1,4 +1,4 @@
-# AI_DS_ML_Journey
+# AI_Journey
 
 Welcome to my personal journey transitioning from a **Software Engineer** to an aspiring **AI/ML/Data Scientist**. This repo will be continuously updated with my progress, code, notes, and projects.
 
@@ -7,7 +7,7 @@ Welcome to my personal journey transitioning from a **Software Engineer** to an 
 
 ## 📁 Repository Structure
 ```
-📦AI-ML-Journey
+📦AI-Journey
 ├── LeetCode/              # Python solutions to coding problems
 ├── SQL/                   # SQL queries and exercises
 ├── ML_Algorithm/           # Implementing ML Algorithm with mathematical foundations
